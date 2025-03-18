@@ -1,35 +1,35 @@
 Assignments:
-1. Print the count of duplicate letters in the given String.
-2. Print first duplicate letter in the given String.
-3. Count the number of uppercase and lowercase.
-4. Count the Number of alphabets, Numbers and special characters.
-5. Remove a Given Character from a String
-6. Print maximum occurrence characters.
-7. Remove all spaces from a string
-8. Replace all occurrences of a given character in a string with another character
-9. Replace the character in the given String.
-10. Right rotate the String based on user input.
-11. Left rotate the String based on user input.
-12. Java Program to find maximum and minimum occurring character in a string
-13. abbreviation input: (World Health Organization Output: WHO)
-15. Expand the given String (input:2A3B5C output:AABBBCCCCC)
-16. Find the Smallest and Largest Word in a Sentence
-17. Convert a String to Title Case (First Letter of all the word should be in upper case)
-18. print all the non repeating characters in the given String(Distinct).
-19. Print all the duplicate letters in the given String.
-20. Find the least frequent element in the given String(first occurrence)
-21. First Duplicate and first distinct.
-22. Reverse the words in a sentence.(Input = "How are you" Output: "you are How")
-23. Reverse the letters of every word.(input:this is my program --> output:siht si ym margorp )
-24.input:2{ABC}3{XYZ}5{DEF} 
+1. Print the count of duplicate letters in the given String.✅
+2. Print first duplicate letter in the given String.✅
+3. Count the number of uppercase and lowercase.✅
+4. Count the Number of alphabets, Numbers and special characters.✅
+5. Remove a Given Character from a String✅
+6. Print maximum occurrence characters.✅
+7. Remove all spaces from a string✅
+8. Replace all occurrences of a given character in a string with another character✅
+9. Replace the character in the given String.✅
+10. Right rotate the String based on user input.✅
+11. Left rotate the String based on user input.✅
+12. Java Program to find maximum and minimum occurring character in a string✅
+13. abbreviation input: (World Health Organization Output: WHO)✅
+15. Expand the given String (input:2A3B5C output:AABBBCCCCC)✅
+16. Find the Smallest and Largest Word in a Sentence✅
+17. Convert a String to Title Case (First Letter of all the word should be in upper case)✅
+18. print all the non repeating characters in the given String(Distinct).✅
+19. Print all the duplicate letters in the given String.✅
+20. Find the least frequent element in the given String(first occurrence).✅
+21. First Duplicate and first distinct.✅
+22. Reverse the words in a sentence.(Input = "How are you" Output: "you are How")✅
+23. Reverse the letters of every word.(input:this is my program --> output:siht si ym margorp )✅
+24.input:2{ABC}3{XYZ}5{DEF} ✅
    output:
    ABC ABC 
    XYZ XYZ XYZ 
    DEF DEF DEF DEF DEF
-25. Remove Leading Zeros From String(Input : "00000123569" Output: "123569") 
-26.Java program to print Even length words in a String
-27.Java program to print odd length words in a String
-28. Java String Program to Swapping Pair of Characters(Input: str = “Java” Output: aJav)
+25. Remove Leading Zeros From String(Input : "00000123569" Output: "123569") ✅
+26.Java program to print Even length words in a String✅
+27.Java program to print odd length words in a String✅
+28. Java String Program to Swapping Pair of Characters(Input: str = “Java” Output: aJav)✅
 29. Java Program to divide a string in 'N' equal parts.
 zInput:"aaaabbbbcccc" and N=3
 Output:
@@ -42,3 +42,26 @@ cccc
 Input: str = “102100211”
 Output: 5
 Explanation: "102" , "021" , "210" , " 021" , "210021" these are combinations can be formed where the occurrence of 0 , 1 and 2 all are equal.
+
+
+
+
+
+
+
+
+
+
+
+
+
+the leading note
+
+
+
+
+A B C D E
+E A B C D
+
+B C D E A
+
