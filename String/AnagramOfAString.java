@@ -9,8 +9,8 @@ public class AnagramOfAString {
 		String string1=sc.next();
 		System.out.print("Enter a string:");
 		String string2=sc.next();
-		//System.out.println(checkAnagram(string1,string2)?"String is an anagram":"String is not an anagram");
-		System.out.println(isAnagram(string1,string2)?"String is an anagram":"String is not an anagram");
+		System.out.println(checkAnagram(string1,string2)?"String is an anagram":"String is not an anagram");
+		//System.out.println(isAnagram(string1,string2)?"String is an anagram":"String is not an anagram");
 	}
 	public static boolean checkAnagram(String string1,String string2) {
 		if(string1.length()!=string2.length()) 

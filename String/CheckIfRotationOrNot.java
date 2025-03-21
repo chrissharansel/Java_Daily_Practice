@@ -1,4 +1,4 @@
-package String;*******
+package String;
 
 import java.util.Scanner;
 
@@ -11,11 +11,11 @@ public class CheckIfRotationOrNot {
 		String string2=sc.next();
 		System.out.println(checkRotationOrNot(string1,string2));
 	}
-	public static void checkRotationOrNot(String string1,String string2){
+	public static boolean checkRotationOrNot(String string1,String string2){
 		char[] ch1=string1.toCharArray();
 		char[] ch2=string1.toCharArray();
 		boolean flag=false;
-		
+		return flag;
 		
 		
 	}
