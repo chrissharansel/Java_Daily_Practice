@@ -1,4 +1,4 @@
-package Downcasting;
+package Inheritance.TypeCasting.Downcasting;
 
 public class Student extends Person{
 	Student(int age, String name,int ID) {

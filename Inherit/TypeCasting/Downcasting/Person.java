@@ -1,4 +1,4 @@
-package Downcasting;
+package Inheritance.TypeCasting.Downcasting;
 
 public class Person {
 	 int age;

@@ -1,4 +1,4 @@
-package Upcasting;
+package Inheritance.TypeCasting.Upcasting;
 
 public class Pen extends Product{
 	 public static void main(String[] args) {

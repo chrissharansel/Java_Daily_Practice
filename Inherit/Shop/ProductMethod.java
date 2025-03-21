@@ -39,9 +39,7 @@ public class ProductMethod {
 			}
 			return m;
 	}
-	public static Mobile getShampooType(Scanner sc) {
-		
-			
+	public static Shampoo getShampooType(Scanner sc) {
 			Shampoo s1=new Shampoo("A",01,3,4);
 			Shampoo s2=new Shampoo("B",02,5,4);
 			Shampoo s3=new Shampoo("C",03,3,5);
@@ -73,6 +71,38 @@ public class ProductMethod {
 			}
 			return s;
 	}
+	public static Tshirt getTshirtType(Scanner sc) {
+		Tshirt s1=new Tshirt("A",01,5,40,"Blue");
+		Tshirt s2=new Tshirt("B",02,3,44,"Red");
+		Tshirt s3=new Tshirt("C",03,5,35,"Blue");
+		Tshirt s4=new Tshirt("D",04,7,40,"Green");
+		Tshirt s5=new Tshirt("E",05,2,45,"Pink");
+		
+		Tshirt[] tshirt= {s1,s2,s3,s4,s5};
+			for(int i=0;i<tshirt.length;i++) {
+				System.out.println(i+1+'.'+tshirt[i].name);
+			}
+			Tshirt s=null;
+		int option=sc.nextInt();
+		switch(option) {
+		case 1:
+			s=s1;
+			break;
+		case 2:
+			s=s2;
+			break;
+		case 3:
+			s=s3;
+			break;
+		case 4:
+			s=s4;
+			break;
+		case 5:
+			s=s5;
+			break;	
+		}
+		return s;
+}
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("1.Mobile\n2.Tshirt\n3.Shampoo\nEnter your choice:");
@@ -85,7 +115,7 @@ public class ProductMethod {
 			break;
 		case 2:
 			
-			p=new Tshirt("tshirt",23,5,40,"blue");
+			p=getTshirtType(sc);
 			break;
 		case 3:
 			
@@ -106,4 +136,4 @@ public class ProductMethod {
 
 
 
-}
+
